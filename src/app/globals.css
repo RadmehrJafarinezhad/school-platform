@@ -1,5 +1,25 @@
 @import "tailwindcss";
 
+:root {
+    --primary: #047857;
+    --primary-dark: #064E3B;
+    --background: #F8FAFC;
+    --surface: #FFFFFF;
+    --text: #0F172A;
+    --accent: #F59E0B;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary: #34D399;
+        --primary-dark: #05a376;
+        --background: #0F172A;
+        --surface: #1E293B;
+        --text: #F8FAFC;
+        --accent: #FBBF24;
+    }
+}
+
 *,
 *::before,
 *::after {
@@ -16,4 +36,5 @@ html {
 
 body {
     background-color: var(--background);
+    color: var(--text);
 }
