@@ -20,13 +20,6 @@
     }
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
 html {
     color-scheme: light dark;
@@ -37,4 +30,23 @@ html {
 body {
     background-color: var(--background);
     color: var(--text);
+}
+
+input, label, select, textarea, button, fieldset, legend, datalist, output, option, optgroup {
+    font: inherit;
+    color: var(--text);
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: var(--primary);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0.5rem;
+    padding-inline: 1.25rem;
+    padding-block: 0.5rem;
+    cursor: pointer;
 }
