@@ -1,7 +1,6 @@
 import Link from "next/link";
-import logo from "@/assets/logo.png";
 import Image from "next/image";
-
+import logo from "@/assets/logo.png";
 
 function Header() {
   return (

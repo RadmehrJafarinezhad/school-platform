@@ -1,52 +1,61 @@
 @import "tailwindcss";
 
 :root {
-    --primary: #047857;
-    --primary-dark: #064E3B;
-    --background: #F8FAFC;
-    --surface: #FFFFFF;
-    --text: #0F172A;
-    --accent: #F59E0B;
+  --primary: #047857;
+  --primary-dark: #064e3b;
+  --background: #f8fafc;
+  --surface: #ffffff;
+  --text: #0f172a;
+  --accent: #f59e0b;
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        --primary: #34D399;
-        --primary-dark: #05a376;
-        --background: #0F172A;
-        --surface: #1E293B;
-        --text: #F8FAFC;
-        --accent: #FBBF24;
-    }
+  :root {
+    --primary: #34d399;
+    --primary-dark: #05a376;
+    --background: #0f172a;
+    --surface: #1e293b;
+    --text: #f8fafc;
+    --accent: #fbbf24;
+  }
 }
 
-
 html {
-    color-scheme: light dark;
-    font-family: "Vazirmatn", system-ui;
-    font-feature-settings: "ss01";
+  color-scheme: light dark;
+  font-family: "Vazirmatn", system-ui;
+  font-feature-settings: "ss01";
 }
 
 body {
-    background-color: var(--background);
-    color: var(--text);
+  background-color: var(--background);
+  color: var(--text);
 }
 
-input, label, select, textarea, button, fieldset, legend, datalist, output, option, optgroup {
-    font: inherit;
-    color: var(--text);
+input,
+label,
+select,
+textarea,
+button,
+fieldset,
+legend,
+datalist,
+output,
+option,
+optgroup {
+  font: inherit;
+  color: var(--text);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 button {
-    background-color: var(--primary);
-    color: #FFFFFF;
-    border: none;
-    border-radius: 0.5rem;
-    padding-inline: 1.25rem;
-    padding-block: 0.5rem;
-    cursor: pointer;
+  background-color: var(--primary);
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5rem;
+  padding-inline: 1.25rem;
+  padding-block: 0.5rem;
+  cursor: pointer;
 }
